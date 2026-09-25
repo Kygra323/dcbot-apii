@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
   const { url } = req.query;
 
-  const WEBHOOK_URL = "https://discord.com/api/webhooks/1550897343849697391/dMX8DK2a9PkWMLTY6hfHb89WAj6b4zSDC2F9mRIzKULBbO-umzpeVlKvQCIWuJbHL5gi";
+  const WEBHOOK_URL = "https://discord.com/api/webhooks/1553072599192305751/kG1crFagoaykhyFugmZ96FG0F4A19CQ73crU164pKRtWTPNaTyczdcsr9n3OdbPEbQ-G";
 
   if (!url || url.trim() === "" || url === "undefined") {
     return res.status(400).send("Missing URL parameter.");
